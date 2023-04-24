@@ -61,6 +61,11 @@ table
     outline: none
     box-sizing: border-box
 .container
+    background-image: url("../img/fone.png")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 100%
+
     width: 600px
     margin: 0 auto
     display: flex
@@ -153,9 +158,11 @@ table
                 font-size: 25px
                 line-height: 30px
 
-        button
+        a
             width: 351.48px
             height: 66.96px
+            padding-top: 18px
+            text-align: center
             background: #1B3855
             border-radius: 57.5512px
             font-weight: 700
@@ -171,12 +178,17 @@ table
                 height: 50px
                 font-size: 18px
                 line-height: 21px
-
-        button:hover
+                padding-top: 13px
+        a:hover
             background-color: transparent
             color: #1B3855
             transition: .3s
             cursor: pointer
+        a:active
+            transition: .3s
+            background-color: #FADE3A
+            border: 2px solid #FADE3A
+            color: #1B3855
 footer
     margin-top: 100px
     padding-bottom: 40px

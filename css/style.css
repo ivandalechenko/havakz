@@ -73,6 +73,10 @@ table {
 }
 
 .container {
+  background-image: url("../img/fone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   width: 600px;
   margin: 0 auto;
   display: flex;
@@ -201,9 +205,11 @@ table {
     line-height: 30px;
   }
 }
-.container .what_do_you_need button {
+.container .what_do_you_need a {
   width: 351.48px;
   height: 66.96px;
+  padding-top: 18px;
+  text-align: center;
   background: #1B3855;
   border-radius: 57.5512px;
   font-weight: 700;
@@ -215,19 +221,26 @@ table {
   transition: 0.3s;
 }
 @media (max-width: 400px) {
-  .container .what_do_you_need button {
+  .container .what_do_you_need a {
     margin-top: 12px;
     width: 300px;
     height: 50px;
     font-size: 18px;
     line-height: 21px;
+    padding-top: 13px;
   }
 }
-.container .what_do_you_need button:hover {
+.container .what_do_you_need a:hover {
   background-color: transparent;
   color: #1B3855;
   transition: 0.3s;
   cursor: pointer;
+}
+.container .what_do_you_need a:active {
+  transition: 0.3s;
+  background-color: #FADE3A;
+  border: 2px solid #FADE3A;
+  color: #1B3855;
 }
 
 footer {
