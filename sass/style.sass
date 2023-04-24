@@ -60,3 +60,129 @@ table
     border: 0
     outline: none
     box-sizing: border-box
+.container
+    width: 600px
+    margin: 0 auto
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    @media (max-width:620px)
+        width: 100%
+        padding: 0 10px
+    .logo
+        display: flex
+        justify-content: center
+        width: 100%
+        margin-top: 50px
+        @media (max-width:400px)
+            margin-top: 20px
+        img
+            @media (max-width:400px)
+                width: 50px
+                height: 45px
+                object-fit: cover
+                margin: auto 0
+                margin-right: 10px
+        h1
+            font-weight: 700
+            font-size: 66.5435px
+            line-height: 76px
+            color: #1B3855
+            @media (max-width:400px)
+                font-size: 50px
+                line-height: 58px
+            .thin
+                font-weight: 400
+                color: #1B3855
+    .feedback
+        text-align: center
+        margin-top: 10px
+        h1
+            font-weight: 700
+            font-size: 37.7679px
+            line-height: 43px
+            color: #1B3855
+            @media (max-width:400px)
+                font-size: 28px
+                line-height: 32px
+    .stars_block
+        margin-top: 10px
+        display: flex
+        flex-wrap: wrap
+        width: 100%
+        justify-content: center
+        .stars
+            display: flex
+            border-right: 2px solid #1B3855
+            padding-right: 15px
+            img
+                @media (max-width:400px)
+                    width: 120px
+            p
+                margin: auto
+                font-weight: 600
+                font-size: 18.92px
+                line-height: 23px
+                color: #1B3855
+                @media (max-width:400px)
+                    font-size: 15px
+                    line-height: 18px
+        .text
+            padding-left: 15px
+            font-weight: 400
+            font-size: 16.78px
+            line-height: 19px
+            color: #1B3855
+            @media (max-width:400px)
+                font-size: 13px
+                line-height: 15px
+
+    .what_do_you_need
+        margin-top: 10px
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        h2
+            font-weight: 700
+            font-size: 33.87px
+            line-height: 39px
+            color: #1B3855
+            width: 100%
+            text-align: center
+            @media (max-width:400px)
+                font-size: 25px
+                line-height: 30px
+
+        button
+            width: 351.48px
+            height: 66.96px
+            background: #1B3855
+            border-radius: 57.5512px
+            font-weight: 700
+            font-size: 23px
+            line-height: 26px
+            color: #FADE3A
+            border: 2px solid #1B3855
+            margin-top: 20px
+            transition: .3s
+            @media (max-width:400px)
+                margin-top: 12px
+                width: 300px
+                height: 50px
+                font-size: 18px
+                line-height: 21px
+
+        button:hover
+            background-color: transparent
+            color: #1B3855
+            transition: .3s
+            cursor: pointer
+footer
+    margin-top: 100px
+    padding-bottom: 40px
+    font-style: normal
+    font-weight: 300
+    font-size: 12px
+    line-height: 14px
+    text-align: center
+    color: #6D6D6D
