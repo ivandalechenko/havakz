@@ -177,6 +177,7 @@ table {
   font-weight: 400;
   font-size: 16.78px;
   line-height: 19px;
+  width: 200px;
   color: #1B3855;
 }
 @media (max-width: 400px) {
