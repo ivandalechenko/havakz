@@ -61,11 +61,6 @@ table
     outline: none
     box-sizing: border-box
 .container
-    background-image: url("../img/fone.png")
-    background-position: center
-    background-repeat: no-repeat
-    background-size: 100%
-
     width: 600px
     margin: 0 auto
     display: flex
@@ -74,6 +69,21 @@ table
     @media (max-width:620px)
         width: 100%
         padding: 0 10px
+    .bg_wrapper
+        width: 100%
+        height: 0px
+        .bg
+            width: 100%
+            height: 600px
+            display: flex
+            margin-top: 120px
+            justify-content: center
+            @media (max-width:400px)
+                height: 400px
+            img
+                opacity: 0.1
+                width: 100%
+
     .logo
         display: flex
         justify-content: center
@@ -82,9 +92,9 @@ table
         @media (max-width:400px)
             margin-top: 20px
         img
+            width: 80px
             @media (max-width:400px)
                 width: 50px
-                height: 45px
                 object-fit: cover
                 margin: auto 0
                 margin-right: 10px
@@ -92,6 +102,7 @@ table
             font-weight: 700
             font-size: 66.5435px
             line-height: 76px
+            padding-left: 20px
             color: #1B3855
             @media (max-width:400px)
                 font-size: 50px
